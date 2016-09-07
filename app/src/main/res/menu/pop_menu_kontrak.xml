@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <!--<item
+        android:id="@+id/editKontrak"
+        android:orderInCategory="101"
+        android:title="Edit Kontrak"/>-->
+    <item
+        android:id="@+id/berhenti"
+        android:orderInCategory="102"
+        android:title="Berhenti"/>
+</menu>

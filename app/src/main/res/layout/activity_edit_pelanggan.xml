@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.skday.gascrm.activity.EditPelanggan">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <EditText
+                    android:id="@+id/editNoKtp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="No.KTP"
+                    android:inputType="number"
+                    android:maxLines="1"/>
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <EditText
+                    android:id="@+id/editNama"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Nama"
+                    android:inputType="text"
+                    android:maxLines="1"/>
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <EditText
+                    android:id="@+id/editTTL"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Tempat Tanggal Lahir"
+                    android:inputType="text"
+                    android:maxLines="1"/>
+            </android.support.design.widget.TextInputLayout>
+
+            <!--<android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <EditText
+                    android:id="@+id/eTgLahir"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Tanggal Lahir"
+                    android:inputType="date"
+                    android:maxLines="1"/>
+            </android.support.design.widget.TextInputLayout>-->
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="Jenis Kelamin"
+                android:layout_marginTop="10dp"/>
+            <Spinner
+                android:id="@+id/editJK"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:entries="@array/jk"
+                style="@style/Widget.AppCompat.Spinner.Underlined"/>
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <EditText
+                    android:id="@+id/editAlamat"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Alamat"
+                    android:inputType="text"
+                    android:maxLines="1"/>
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <EditText
+                    android:id="@+id/editRtRw"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="RT/RW"
+                    android:inputType="text"
+                    android:maxLines="1"/>
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <EditText
+                    android:id="@+id/editKelDes"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Kel/Desa"
+                    android:inputType="text"
+                    android:maxLines="1"/>
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <EditText
+                    android:id="@+id/editKecamatan"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Kecamatan"
+                    android:inputType="text"
+                    android:maxLines="1"/>
+            </android.support.design.widget.TextInputLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="Kota / Kabupaten"
+                android:layout_marginTop="10dp"/>
+            <Spinner
+                android:id="@+id/editktKab"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:entries="@array/ktKab"
+                style="@style/Widget.AppCompat.Spinner.Underlined"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="Provinsi"
+                android:layout_marginTop="10dp"/>
+            <Spinner
+                android:id="@+id/editProv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:entries="@array/prov"
+                style="@style/Widget.AppCompat.Spinner.Underlined"/>
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <EditText
+                    android:id="@+id/editAgama"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Agama"
+                    android:inputType="text"
+                    android:maxLines="1"/>
+            </android.support.design.widget.TextInputLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="Status"
+                android:layout_marginTop="10dp"/>
+            <Spinner
+                android:id="@+id/editStatus"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:entries="@array/status"
+                style="@style/Widget.AppCompat.Spinner.Underlined"/>
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <EditText
+                    android:id="@+id/editPekerjaan"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Pekerjaan"
+                    android:inputType="text"
+                    android:maxLines="1"/>
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <EditText
+                    android:id="@+id/editWargaNegara"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Warga Negara"
+                    android:inputType="text"
+                    android:maxLines="1"/>
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <EditText
+                    android:id="@+id/editNoTelp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="No.Telp"
+                    android:inputType="text"
+                    android:maxLines="1"/>
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <EditText
+                    android:id="@+id/editNoHp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="No.HP"
+                    android:inputType="text"
+                    android:maxLines="1"/>
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <EditText
+                    android:id="@+id/editEmail"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Email"
+                    android:inputType="textEmailAddress"
+                    android:maxLines="1"/>
+            </android.support.design.widget.TextInputLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

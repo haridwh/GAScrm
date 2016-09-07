@@ -1,0 +1,65 @@
+<resources>
+    <string name="app_name">GAScrm</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string-array name="nominal">
+        <item>20000</item>
+        <item>50000</item>
+        <item>100000</item>
+    </string-array>
+
+    <string-array name="topUpNominal">
+        <item>1000000</item>
+        <item>2000000</item>
+        <item>5000000</item>
+        <item>10000000</item>
+        <item>20000000</item>
+    </string-array>
+
+    <string-array name="jk">
+        <item>Laki-Laki</item>
+        <item>Perempuan</item>
+    </string-array>
+
+    <string-array name="ktKab">
+        <item>Semarang</item>
+        <item>Bandung</item>
+    </string-array>
+
+    <string-array name="prov">
+        <item>Aceh</item>
+        <item>Sumatera Utara</item>
+        <item>Sumatera Barat</item>
+        <item>Sumatera Selatan</item>
+        <item>DKI Jakarta</item>
+        <item>Jawa Barat</item>
+        <item>Jawa Tengah</item>
+        <item>Jawa Timur</item>
+        <item>Yogyakarta</item>
+    </string-array>
+
+    <string-array name="status">
+        <item>Menikah</item>
+        <item>Belum Menikah</item>
+    </string-array>
+
+    <string-array name="wilayahPelayanan">
+        <item>Prabumulih</item>
+        <item>Jambi</item>
+        <item>Bandung</item>
+        <item>Semarang</item>
+        <item>Papua</item>
+    </string-array>
+
+    <string-array name="tarifGroup">
+        <item>Rumah Tangga</item>
+    </string-array>
+
+</resources>

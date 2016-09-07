@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_depositAgent"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Deposit Agent" />
+        <item
+            android:id="@+id/nav_blToken"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Pembelian Token" />
+        <item
+            android:id="@+id/nav_formDataPel"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Tambah Pelanggan" />
+        <item
+            android:id="@+id/nav_dataPel"
+            android:icon="@drawable/ic_menu_send"
+            android:title="Data Pelanggan"/>
+        <item
+            android:id="@+id/nav_dataKontrak"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Data Kontrak"/>
+        <item
+            android:id="@+id/nav_logToken"
+            android:icon="@drawable/ic_menu_share"
+            android:title="Log Token"/>
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_logout"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Log Out" />
+        </menu>
+    </item>
+
+</menu>

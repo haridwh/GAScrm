@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/kIdPelanggan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/kNoMeter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:layout_below="@+id/kIdPelanggan" />
+    <TextView
+        android:id="@+id/kTarifGroup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/kMulaiKontrak" />
+    <TextView
+        android:id="@+id/kWilayah"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/kTarifGroup" />
+    <TextView
+        android:id="@+id/kNoKontrak"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/kIdPelanggan"
+        android:layout_alignParentRight="true"/>
+    <TextView
+        android:id="@+id/kMulaiKontrak"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/kNoMeter"
+        android:layout_alignParentRight="true"/>
+    <ImageView
+        android:id="@+id/kMenu"
+        android:layout_width="20dp"
+        android:layout_height="50dp"
+        android:layout_alignParentRight="true"
+        android:scaleType="centerCrop"
+        android:src="@drawable/ic_dots"
+        android:layout_below="@+id/kMulaiKontrak"/>
+
+</RelativeLayout>

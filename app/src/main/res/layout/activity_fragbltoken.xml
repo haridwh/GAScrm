@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <EditText
+            android:id="@+id/eNoKtp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="No. KTP"
+            android:inputType="number"
+            android:maxLines="1"/>
+    </android.support.design.widget.TextInputLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="No.Kontrak"
+        android:layout_marginTop="10dp"/>
+    <Button
+        android:id="@+id/eNoKontrak"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/Base.Widget.AppCompat.Spinner.Underlined"/>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <EditText
+            android:id="@+id/eNoMeter"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="No. Meter"
+            android:cursorVisible="false"
+            android:focusable="false"
+            android:focusableInTouchMode="false"/>
+    </android.support.design.widget.TextInputLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Nominal"
+        android:layout_marginTop="10dp"/>
+    <Spinner
+        android:id="@+id/eNominal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/nominal"
+        style="@style/Base.Widget.AppCompat.Spinner.Underlined"/>
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <EditText
+            android:id="@+id/eVolume"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Volume"
+            android:clickable="false"
+            android:cursorVisible="false"
+            android:focusable="false"
+            android:focusableInTouchMode="false"/>
+    </android.support.design.widget.TextInputLayout>
+    <Button
+        android:id="@+id/btnSubmit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Create Token"/>
+</LinearLayout>
